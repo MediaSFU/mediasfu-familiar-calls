@@ -1,0 +1,45 @@
+{
+  "capturedAt": "2026-08-20",
+  "environment": "local-emulator-runtime-only",
+  "stagingAcceptance": "unverified",
+  "app": "MediaSFU familiar calls for React Native",
+  "sourcePath": "apps/react-native",
+  "validationCopy": "temporary local validation copy (removed)",
+  "sdkValidation": {
+    "reactNative": "temporary tarball packed from local mediasfu-reactnative@2.3.7",
+    "shared": "temporary tarball packed from local mediasfu-shared@1.0.6",
+    "publicManifestUsesLocalReference": false
+  },
+  "android": {
+    "avd": "Medium_Phone_API_36",
+    "api": 36,
+    "abi": "x86_64",
+    "model": "sdk_gphone64_x86_64",
+    "physicalDeviceUsed": false,
+    "newArchitecture": true,
+    "build": "passed",
+    "apkSha256": "F2ED8C28F96B9A9637CB453C0C695CCEA881421633F2F11D715DD4576BA4F938"
+  },
+  "runtime": {
+    "embeddedBundleRendered": true,
+    "onboardingVisuallyInspected": true,
+    "screenshots": [
+      "09-onboarding-clean-api36.png"
+    ]
+  },
+  "nonLiveChecks": {
+    "jest": "15/15 passed",
+    "eslint": "passed",
+    "backendNodeTests": "6/6 passed",
+    "publicLocalReferenceScan": "no file/workspace/absolute-path dependency references found",
+    "credentialLiteralScan": "no credential assignment or authorization literal found"
+  },
+  "participants": 0,
+  "produced": [],
+  "consumed": [],
+  "screenShareObserved": false,
+  "teardown": "not-run-no-room-created",
+  "credentialsRetained": false,
+  "roomIdentifiersRetained": false,
+  "blockingReason": "Real staging credential injection was not authorized by the execution safety boundary. No staging request was sent and no room was created."
+}

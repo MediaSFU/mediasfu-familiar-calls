@@ -1,0 +1,16 @@
+{
+  "date": "2026-08-21",
+  "environment": "staging",
+  "producer": "React Native 0.86 on Android API 36 x86_64 emulator",
+  "consumer": "React web peer",
+  "connected": true,
+  "remoteVideo": {
+    "readyState": 4,
+    "videoWidth": 240,
+    "videoHeight": 320,
+    "paused": false,
+    "muted": false
+  },
+  "credentialsRetained": false,
+  "meetingIdentifierRetained": false
+}

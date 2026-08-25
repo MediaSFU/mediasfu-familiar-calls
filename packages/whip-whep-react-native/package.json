@@ -1,0 +1,16 @@
+{
+  "name": "@mediasfu-example/whip-whep-react-native",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "peerDependencies": {
+    "@react-native-async-storage/async-storage": ">=1.23",
+    "react": ">=19",
+    "react-native": ">=0.79",
+    "react-native-webrtc": ">=124 <126"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "MediaSFU Familiar WHIP WHEP",
+    "slug": "mediasfu-familiar-whip-whep",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "android": {
+      "package": "com.mediasfu.examples.familiarwhipwhep",
+      "permissions": ["CAMERA", "RECORD_AUDIO", "MODIFY_AUDIO_SETTINGS"]
+    },
+    "ios": {
+      "infoPlist": {
+        "NSCameraUsageDescription": "Allow Familiar Calls to use your camera.",
+        "NSMicrophoneUsageDescription": "Allow Familiar Calls to use your microphone."
+      }
+    },
+    "plugins": ["expo-dev-client"]
+  }
+}

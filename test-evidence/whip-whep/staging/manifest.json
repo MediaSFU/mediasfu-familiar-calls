@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "capturedAtUtc": "2026-08-22T01:14:31.019Z",
+  "capturedDateLocal": "2026-08-21",
+  "environment": "authorized-staging",
+  "app": "apps/whip-whep",
+  "mediaSFUClientSdk": null,
+  "roomProvisioning": "backend-http",
+  "browserSignaling": "http-polling",
+  "publisherProtocol": "WHIP",
+  "playbackProtocol": "WHEP",
+  "browserContexts": 2,
+  "callType": "video",
+  "callDurationSeconds": 123,
+  "captureSource": {
+    "video": "development-only synthetic canvas",
+    "audio": "development-only synthetic oscillator",
+    "transportWasReal": true,
+    "staticUiMock": false
+  },
+  "observations": {
+    "hostStatus": "Live",
+    "guestStatus": "Live",
+    "hostPeerVideo": {
+      "readyState": 4,
+      "paused": false,
+      "width": 1280,
+      "height": 720
+    },
+    "guestPeerVideo": {
+      "readyState": 4,
+      "paused": false,
+      "width": 1280,
+      "height": 720
+    },
+    "doubleActivationSwap": true,
+    "miniPreviewDrag": {
+      "before": { "x": 1035, "y": 106, "width": 210, "height": 131.25 },
+      "after": { "x": 745, "y": 240, "width": 210, "height": 131.25 }
+    },
+    "httpEndReachedBothBrowsers": true,
+    "postFixProducerErrors": 0
+  },
+  "limitations": [
+    "No human audibility assertion was made.",
+    "Synthetic capture proves real protocol transport, not physical camera or microphone capture."
+  ],
+  "credentialsRetained": false,
+  "roomIdentifiersRetained": false,
+  "files": [
+    {
+      "path": "01-host-live-whip-whep.png",
+      "sha256": "f1dca354a7360a974ed1032672acb2bafde57d189ab22d1258ff177c209361f3"
+    },
+    {
+      "path": "02-guest-live-whip-whep.png",
+      "sha256": "5ea97830123d6123928b7a0acb827f459a38bcecadc61c19ff00359378c3b983"
+    },
+    {
+      "path": "03-host-swapped.png",
+      "sha256": "83298636c29adc6031f87794ef8e6009ada395a8514e794745db32e8ac6d7fa8"
+    },
+    {
+      "path": "04-host-mini-dragged.png",
+      "sha256": "7884e1ed5174e43a46cb3400bdabaad9d93fcdfa79ddaf55efa45ace37f34280"
+    }
+  ]
+}

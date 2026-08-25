@@ -1,0 +1,650 @@
+--------- beginning of main
+08-21 11:28:16.363 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:16.363 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:16.514 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:16.515 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:17.093 D/com.oney.WebRTCModule.WebRTCModule( 9371): getUserMedia(video): {"facingMode":"user","width":480,"frameRate":10,"height":480}
+08-21 11:28:17.103 D/CameraCaptureController( 9371): failed to find device with id: null
+08-21 11:28:17.125 W/AS.PlaybackActivityMon(  769): No piid assigned for invalid/internal port id 16
+08-21 11:28:17.183 D/CameraCaptureController( 9371): Create camera 1 succeeded
+08-21 11:28:17.389 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:17.390 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:17.390 I/org.webrtc.Logging( 9371): EglBase14Impl: Using OpenGL ES version 2
+08-21 11:28:17.569 E/EGL_emulation( 9371): eglQueryContext 32c0  EGL_BAD_ATTRIBUTE
+08-21 11:28:17.571 E/EGL_emulation( 9371): tid 10339: eglQueryContext(2159): error 0x3004 (EGL_BAD_ATTRIBUTE)
+08-21 11:28:17.581 I/org.webrtc.Logging( 9371): CameraCapturer: startCapture: 480x480@10
+08-21 11:28:17.585 I/org.webrtc.Logging( 9371): Camera2Session: Create new camera2 session on camera 1
+08-21 11:28:17.586 I/org.webrtc.Logging( 9371): Camera2Session: start
+08-21 11:28:17.587 D/com.oney.WebRTCModule.WebRTCModule( 9371): MediaStream id: 50ed8f67-0224-496b-9a65-f740634b77f8
+08-21 11:28:17.589 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:17.590 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:17.607 I/org.webrtc.Logging( 9371): Camera2Session: Available preview sizes: [1920x1440, 1920x1080, 1920x960, 1600x1200, 1440x1080, 1280x960, 1280x720, 1024x768, 800x600, 720x480, 640x480, 640x360, 352x288, 320x240, 176x144]
+08-21 11:28:17.607 I/org.webrtc.Logging( 9371): Camera2Session: Available fps ranges: [[15.0:15.0], [7.0:30.0], [15.0:30.0], [30.0:30.0]]
+08-21 11:28:17.608 I/org.webrtc.Logging( 9371): Camera2Session: Using capture format: 640x480@[15.0:15.0]
+08-21 11:28:17.608 I/org.webrtc.Logging( 9371): Camera2Session: Opening camera 1
+08-21 11:28:17.608 D/com.oney.WebRTCModule.WebRTCModule( 9371): CameraEventsHandler.onCameraOpening: cameraName=1
+08-21 11:28:17.670 D/Camera3-Utils(  658): Set real time priority for thread (tid 9810)
+08-21 11:28:17.671 I/CameraService(  658): CameraService::connect call (PID 9371 "com.awesomeprojectmediasfu", camera ID 1) and Camera API version 2
+08-21 11:28:17.746 I/Camera2ClientBase(  658): Camera 1: Opened. Client: com.awesomeprojectmediasfu (PID 9371, UID 10220)
+08-21 11:28:17.746 I/CameraDeviceClient(  658): CameraDeviceClient 1: Opened
+08-21 11:28:17.746 I/CameraService(  658): makeClient: Camera2 API, rotationOverride 1
+08-21 11:28:17.778 D/CameraService(  658): notifyCameraOpening: Bypassing checkOp for uid 10220
+08-21 11:28:17.778 I/CameraService(  658): onTorchStatusChangedLocked: Torch status changed for cameraId=1, newStatus=0
+08-21 11:28:17.869 E/projectmediasfu( 9371): No package ID ff found for resource ID 0xffffffff.
+08-21 11:28:17.871 D/com.oney.WebRTCModule.WebRTCModule( 9371): Set stream URL 50ed8f67-0224-496b-9a65-f740634b77f8 current: null
+08-21 11:28:17.920 W/EmulatedCameraDeviceInfo(  527): InitializeControlDefaults: No available post RAW boost! Setting default!
+08-21 11:28:17.962 D/SatelliteController( 1153): iisInCarrierRoamingNbIotNtn: satellite is disabled
+08-21 11:28:17.964 W/IPCThreadState(  769): Sending oneway calls to frozen process.
+08-21 11:28:18.196 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:18.197 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:18.227 W/EmulatedCameraDeviceInfo(  527): InitializeControlDefaults: No available post RAW boost! Setting default!
+08-21 11:28:18.233 E/EmulatedRequestProcessor(  527): onEvent: unexpected event received type: 33
+08-21 11:28:18.234 E/EmulatedRequestProcessor(  527): onEvent: unexpected event received type: 33
+08-21 11:28:18.235 W/EmulatedCameraDeviceInfo(  527): InitializeControlDefaults: No available post RAW boost! Setting default!
+08-21 11:28:18.236 W/EmulatedCameraDeviceInfo(  527): InitializeControlDefaults: No available post RAW boost! Setting default!
+08-21 11:28:18.237 E/EmulatedRequestProcessor(  527): onEvent: unexpected event received type: 33
+08-21 11:28:18.247 I/CameraProviderManager(  658): Camera device device@1.1/internal/1 torch status is now NOT_AVAILABLE
+08-21 11:28:18.250 I/CameraService(  658): onTorchStatusChangedLocked: Torch status changed for cameraId=1, newStatus=0
+08-21 11:28:18.251 I/GCH_CameraDeviceSession(  527): Initialize: measure buffer allocation time: 0
+08-21 11:28:18.266 I/ReactNativeJS( 9371): rn-webrtc:pc:DEBUG 9 ctor +2m
+08-21 11:28:18.277 I/ReactNativeJS( 9371): rn-webrtc:pc:DEBUG 9 addTransceiver +10ms
+08-21 11:28:18.296 I/GCH_CameraDeviceSession(  527): Create: Created a device session for camera 1 with 2 physical cameras: 4 5
+08-21 11:28:18.338 I/ReactNativeJS( 9371): rn-webrtc:pc:DEBUG 9 createOffer +57ms
+08-21 11:28:18.359 W/ServiceManagerCppClient(  527): Failed to get isDeclared for android.hardware.thermal.IThermal/default: Status(-1, EX_SECURITY): 'SELinux denied for service.'
+08-21 11:28:18.359 W/GCH_AidlCameraDeviceSession(  527): Thermal AIDL service is not declared
+08-21 11:28:18.359 E/GCH_AidlCameraDeviceSession(  527): RegisterThermalChangedCallback: thermal was not initialized.
+08-21 11:28:18.359 W/GCH_CameraDeviceSession(  527): SetSessionCallback: Registering thermal callback failed: No such device(-19)
+08-21 11:28:18.452 I/ReactNativeJS( 9371): rn-webrtc:pc:DEBUG 9 createOffer OK +119ms
+08-21 11:28:18.495 I/ReactNativeJS( 9371): rn-webrtc:pc:DEBUG 9 setLocalDescription +43ms
+08-21 11:28:18.505 I/org.webrtc.Logging( 9371): SurfaceEglRenderer: : surfaceChanged: format: 4 size: 975x1039
+08-21 11:28:18.554 D/Camera3-Utils(  658): Set regular priority for thread (tid 9810)
+08-21 11:28:18.637 I/org.webrtc.Logging( 9371): Camera2Session: Camera opened.
+08-21 11:28:18.689 W/cameraserver(  658): createConfiguredSurface: Camera 1 with consumer usage flag: 256: Forcing asynchronous mode forstream
+08-21 11:28:18.715 W/cameraserver(  658): createConfiguredSurface: Camera 1: Overriding format 0x1 to IMPLEMENTATION_DEFINED
+08-21 11:28:18.734 D/Camera3-Utils(  658): Set real time priority for thread (tid 741)
+08-21 11:28:18.735 I/GCH_HalUtils(  527): ======== App stream configuration ========
+08-21 11:28:18.736 I/GCH_HalUtils(  527): == stream num: 1, operation_mode:0
+08-21 11:28:18.736 I/GCH_HalUtils(  527): ==== [0]stream_id 0, type 0, format 34, res 640x480, usage 256, is_phy 0, phy_cam_id 0, group_id -1
+08-21 11:28:18.736 I/GCH_HalUtils(  527): ======== App stream configuration ========
+08-21 11:28:18.736 I/GCH_ZslSnapshotCaptureSession(  527): IsStreamConfigurationSupported: Software denoised not enabled
+08-21 11:28:18.736 D/GCH_BasicCaptureSession(  527): IsStreamConfigurationSupported: BasicCaptureSession supports the stream config
+08-21 11:28:18.736 D/GCH_BasicCaptureSession(  527): IsStreamConfigurationSupported: BasicCaptureSession supports the stream config
+08-21 11:28:18.756 I/GCH_ResultDispatcher(  527): [Cam1_ResultDispatcher] ResultDispatcher: SetRealtimeThread OK
+08-21 11:28:18.757 I/StreamBufferCacheManager(  527): Create: Created StreamBufferCacheManager.
+08-21 11:28:18.767 D/com.oney.WebRTCModule.WebRTCModule( 9371): onIceGatheringChangeGATHERING
+--------- beginning of system
+08-21 11:28:18.798 W/OptProp (  769): Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+08-21 11:28:18.798 D/Camera3-Device(  658): Set real time priority for request queue thread (tid 10348)
+08-21 11:28:18.799 D/Camera3-Utils(  658): Set regular priority for thread (tid 741)
+08-21 11:28:18.835 I/org.webrtc.Logging( 9371): Camera2Session: Camera capture session configured.
+08-21 11:28:18.750 W/camera.provider(  527): type=1400 audit(0.0:78): avc:  denied  { sys_nice } for  capability=23  scontext=u:r:hal_camera_default:s0 tcontext=u:r:hal_camera_default:s0 tclass=capability permissive=0
+08-21 11:28:18.873 I/org.webrtc.Logging( 9371): Camera2Session: Stabilization not available.
+08-21 11:28:18.879 I/org.webrtc.Logging( 9371): Camera2Session: Using continuous video auto-focus.
+08-21 11:28:18.881 D/com.oney.WebRTCModule.WebRTCModule( 9371): onIceCandidate
+08-21 11:28:18.887 D/com.oney.WebRTCModule.WebRTCModule( 9371): onIceCandidate
+08-21 11:28:18.899 D/CameraService(  658): startCameraStreamingOps: Start data delivery for uid 10220
+08-21 11:28:18.900 I/org.webrtc.Logging( 9371): Camera2Session: Camera device successfully started.
+08-21 11:28:18.901 I/org.webrtc.Logging( 9371): CameraCapturer: Create session done. Switch state: IDLE
+08-21 11:28:18.903 I/org.webrtc.Logging( 9371): SurfaceTextureHelper: Setting listener to org.webrtc.Camera2Session$CaptureSessionCallback$$ExternalSyntheticLambda0@afd7d8c
+08-21 11:28:18.905 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:18.905 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:18.950 D/com.oney.WebRTCModule.WebRTCModule( 9371): Got video track for stream URL 50ed8f67-0224-496b-9a65-f740634b77f8 -> org.webrtc.VideoTrack@774cd5
+08-21 11:28:18.981 I/ReactNativeJS( 9371): rn-webrtc:pc:DEBUG 9 setLocalDescription OK +443ms
+08-21 11:28:19.020 I/org.webrtc.Logging( 9371): EglBase14Impl: Using OpenGL ES version 2
+08-21 11:28:19.025 I/ReactNativeJS( 9371): rn-webrtc:pc:DEBUG 9 setRemoteDescription +84ms
+08-21 11:28:19.027 D/com.oney.WebRTCModule.WebRTCModule( 9371): onIceCandidate
+08-21 11:28:19.034 I/org.webrtc.Logging( 9371): EglRenderer: Initializing EglRenderer
+08-21 11:28:19.046 D/com.oney.WebRTCModule.WebRTCModule( 9371): onIceCandidate
+08-21 11:28:19.047 D/com.oney.WebRTCModule.WebRTCModule( 9371): onIceGatheringChangeCOMPLETE
+08-21 11:28:19.101 W/android.hardware.audio@7.1-impl.ranchu(  520): pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+08-21 11:28:19.102 E/android.hardware.audio@7.1-impl.ranchu(  520): pcmWrite:260 failure: -1
+08-21 11:28:19.132 I/HWUI    ( 9371): Davey! duration=792ms; Flags=0, FrameTimelineVsyncId=2110955, IntendedVsync=7405697412958, Vsync=7405697412958, InputEventId=-876254551, HandleInputStart=7405706842310, AnimationStart=7405706844126, PerformTraversalsStart=7405839280263, DrawStart=7406016277782, FrameDeadline=7405714079624, FrameStartTime=7405706835130, FrameInterval=16666666, WorkloadTarget=16666666, SyncQueued=7406100108321, SyncStart=7406104423313, IssueDrawCommandsStart=7406105095869, SwapBuffers=7406216929947, FrameCompleted=7406494101481, DequeueBufferDuration=12305, QueueBufferDuration=1377690, GpuCompleted=7406494101481, SwapBuffersCompleted=7406447852499, DisplayPresentTime=0, CommandSubmissionCompleted=7406216929947,
+08-21 11:28:19.208 W/android.hardware.audio@7.1-impl.ranchu(  520): pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+08-21 11:28:19.208 E/android.hardware.audio@7.1-impl.ranchu(  520): pcmWrite:260 failure: -1
+08-21 11:28:19.246 I/org.webrtc.Logging( 9371): EglRenderer: clearSurface
+08-21 11:28:19.319 W/android.hardware.audio@7.1-impl.ranchu(  520): pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+08-21 11:28:19.320 E/android.hardware.audio@7.1-impl.ranchu(  520): pcmWrite:260 failure: -1
+08-21 11:28:19.321 I/RefreshRateSelector(  591): Display 4619827259835644672 policy changed
+08-21 11:28:19.321 I/RefreshRateSelector(  591): Previous: {defaultModeId=0, allowGroupSwitching=false, primaryRanges={physical=[0.00 Hz, inf Hz], render=[0.00 Hz, 60.00 Hz]}, appRequestRanges={physical=[0.00 Hz, inf Hz], render=[0.00 Hz, inf Hz]} idleScreenConfig=nullptr}
+08-21 11:28:19.321 I/RefreshRateSelector(  591): Current:  DisplayManagerPolicy{defaultModeId=0, allowGroupSwitching=false, primaryRanges={physical=[60.00 Hz, inf Hz], render=[60.00 Hz, 60.00 Hz]}, appRequestRanges={physical=[60.00 Hz, inf Hz], render=[60.00 Hz, 60.00 Hz]} idleScreenConfig=nullptr}
+08-21 11:28:19.321 I/RefreshRateSelector(  591): 0 mode changes were performed under the previous policy
+08-21 11:28:19.324 D/DisplayModeController(  591): setDesiredMode 4619827259835644672 {mode={fps=60.00 Hz, modePtr={id=0, vsyncRate=60.00 Hz, peakRefreshRate=60.00 Hz}}, emitEvent=true, force=false}
+08-21 11:28:19.427 W/android.hardware.audio@7.1-impl.ranchu(  520): pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+08-21 11:28:19.427 E/android.hardware.audio@7.1-impl.ranchu(  520): pcmWrite:260 failure: -1
+08-21 11:28:19.533 W/android.hardware.audio@7.1-impl.ranchu(  520): pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+08-21 11:28:19.541 E/android.hardware.audio@7.1-impl.ranchu(  520): pcmWrite:260 failure: -1
+08-21 11:28:19.594 I/projectmediasfu( 9371): Background concurrent mark compact GC freed 10088KB AllocSpace bytes, 2(56KB) LOS objects, 49% free, 10MB/21MB, paused 9.788ms,38.297ms total 754.314ms
+08-21 11:28:19.602 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:19.603 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:19.650 W/android.hardware.audio@7.1-impl.ranchu(  520): pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+08-21 11:28:19.650 E/android.hardware.audio@7.1-impl.ranchu(  520): pcmWrite:260 failure: -1
+08-21 11:28:19.747 W/GCH_ResultDispatcher(  527): [Cam1_ResultDispatcher] PrintTimeoutMessages: pending shutter for frame 1 ready 0
+08-21 11:28:19.747 W/GCH_ResultDispatcher(  527): [Cam1_ResultDispatcher] PrintTimeoutMessages: pending early result metadata for frame 0 ready 0
+08-21 11:28:19.747 W/GCH_ResultDispatcher(  527): [Cam1_ResultDispatcher] PrintTimeoutMessages: pending early result metadata for frame 1 ready 0
+08-21 11:28:19.747 W/GCH_ResultDispatcher(  527): [Cam1_ResultDispatcher] PrintTimeoutMessages: pending final result metadata for frame 0 ready 0
+08-21 11:28:19.747 W/GCH_ResultDispatcher(  527): [Cam1_ResultDispatcher] PrintTimeoutMessages: pending final result metadata for frame 1 ready 0
+08-21 11:28:19.747 W/GCH_ResultDispatcher(  527): [Cam1_ResultDispatcher] PrintTimeoutMessages: pending buffer of stream 0 for frame 0 ready 0
+08-21 11:28:19.747 W/GCH_ResultDispatcher(  527): [Cam1_ResultDispatcher] PrintTimeoutMessages: pending buffer of stream 0 for frame 1 ready 0
+08-21 11:28:19.759 W/android.hardware.audio@7.1-impl.ranchu(  520): pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+08-21 11:28:19.761 E/android.hardware.audio@7.1-impl.ranchu(  520): pcmWrite:260 failure: -1
+08-21 11:28:19.872 W/android.hardware.audio@7.1-impl.ranchu(  520): pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+08-21 11:28:19.872 E/android.hardware.audio@7.1-impl.ranchu(  520): pcmWrite:260 failure: -1
+08-21 11:28:19.932 I/GCH_AidlCameraDeviceSession(  527): ProcessBatchCaptureResult: First frame done
+08-21 11:28:19.951 I/HWUI    ( 9371): Davey! duration=1095ms; Flags=0, FrameTimelineVsyncId=2110994, IntendedVsync=7406130746274, Vsync=7406547412924, InputEventId=0, HandleInputStart=7406556272752, AnimationStart=7406556275656, PerformTraversalsStart=7406636794812, DrawStart=7406637346239, FrameDeadline=7406630746254, FrameStartTime=7406551713662, FrameInterval=16666666, WorkloadTarget=16666666, SyncQueued=7406642095713, SyncStart=7406658208067, IssueDrawCommandsStart=7406658678975, SwapBuffers=7406863260682, FrameCompleted=7407242701244, DequeueBufferDuration=12724, QueueBufferDuration=3047937, GpuCompleted=7407242701244, SwapBuffersCompleted=7407222043374, DisplayPresentTime=0, CommandSubmissionCompleted=7406863260682,
+08-21 11:28:19.972 D/com.oney.WebRTCModule.WebRTCModule( 9371): CameraEventsHandler.onFirstFrameAvailable
+08-21 11:28:19.979 W/android.hardware.audio@7.1-impl.ranchu(  520): pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+08-21 11:28:19.980 E/android.hardware.audio@7.1-impl.ranchu(  520): pcmWrite:260 failure: -1
+08-21 11:28:20.073 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:20.077 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:20.102 W/android.hardware.audio@7.1-impl.ranchu(  520): pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+08-21 11:28:20.102 E/android.hardware.audio@7.1-impl.ranchu(  520): pcmWrite:260 failure: -1
+08-21 11:28:20.208 W/android.hardware.audio@7.1-impl.ranchu(  520): pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+08-21 11:28:20.209 E/android.hardware.audio@7.1-impl.ranchu(  520): pcmWrite:260 failure: -1
+08-21 11:28:20.317 W/android.hardware.audio@7.1-impl.ranchu(  520): pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+08-21 11:28:20.317 E/android.hardware.audio@7.1-impl.ranchu(  520): pcmWrite:260 failure: -1
+08-21 11:28:20.427 W/android.hardware.audio@7.1-impl.ranchu(  520): pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+08-21 11:28:20.427 E/android.hardware.audio@7.1-impl.ranchu(  520): pcmWrite:260 failure: -1
+08-21 11:28:20.534 W/android.hardware.audio@7.1-impl.ranchu(  520): pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+08-21 11:28:20.534 E/android.hardware.audio@7.1-impl.ranchu(  520): pcmWrite:260 failure: -1
+08-21 11:28:20.678 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:20.679 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:20.683 I/ReactNativeJS( 9371): rn-webrtc:pc:DEBUG 9 setRemoteDescription OK +2s
+08-21 11:28:20.763 D/android.hardware.audio@7.1-impl.ranchu(  520): threadLoop: entering standby, frames: 4860096
+08-21 11:28:20.763 D/android.hardware.audio@7.1-impl.ranchu(  520): ~TinyalsaSink: joining consumeThread
+08-21 11:28:20.763 W/android.hardware.audio@7.1-impl.ranchu(  520): pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+08-21 11:28:20.763 E/android.hardware.audio@7.1-impl.ranchu(  520): pcmWrite:260 failure: -1
+08-21 11:28:20.763 D/android.hardware.audio@7.1-impl.ranchu(  520): consumeThread: exiting
+08-21 11:28:20.766 D/android.hardware.audio@7.1-impl.ranchu(  520): ~TinyalsaSink: stopping PCM stream
+08-21 11:28:20.904 D/ActivityManager(  769): freezing 2069 com.google.android.gms
+08-21 11:28:20.956 D/ActivityManager(  769): freezing 1640 android.process.acore
+08-21 11:28:20.960 D/ActivityManager(  769): freezing 5535 com.google.android.apps.restore
+08-21 11:28:20.983 W/GCH_ResultDispatcher(  527): [Cam1_ResultDispatcher] PrintTimeoutMessages: pending shutter for frame 4 ready 0
+08-21 11:28:20.983 W/GCH_ResultDispatcher(  527): [Cam1_ResultDispatcher] PrintTimeoutMessages: pending shutter for frame 5 ready 0
+08-21 11:28:20.983 W/GCH_ResultDispatcher(  527): [Cam1_ResultDispatcher] PrintTimeoutMessages: pending early result metadata for frame 3 ready 0
+08-21 11:28:20.983 W/GCH_ResultDispatcher(  527): [Cam1_ResultDispatcher] PrintTimeoutMessages: pending early result metadata for frame 4 ready 0
+08-21 11:28:20.983 W/GCH_ResultDispatcher(  527): [Cam1_ResultDispatcher] PrintTimeoutMessages: pending early result metadata for frame 5 ready 0
+08-21 11:28:20.983 W/GCH_ResultDispatcher(  527): [Cam1_ResultDispatcher] PrintTimeoutMessages: pending final result metadata for frame 3 ready 0
+08-21 11:28:20.983 W/GCH_ResultDispatcher(  527): [Cam1_ResultDispatcher] PrintTimeoutMessages: pending final result metadata for frame 4 ready 0
+08-21 11:28:20.983 W/GCH_ResultDispatcher(  527): [Cam1_ResultDispatcher] PrintTimeoutMessages: pending final result metadata for frame 5 ready 0
+08-21 11:28:20.983 W/GCH_ResultDispatcher(  527): [Cam1_ResultDispatcher] PrintTimeoutMessages: pending buffer of stream 0 for frame 3 ready 0
+08-21 11:28:20.983 W/GCH_ResultDispatcher(  527): [Cam1_ResultDispatcher] PrintTimeoutMessages: pending buffer of stream 0 for frame 4 ready 0
+08-21 11:28:20.983 W/GCH_ResultDispatcher(  527): [Cam1_ResultDispatcher] PrintTimeoutMessages: pending buffer of stream 0 for frame 5 ready 0
+08-21 11:28:21.005 D/ActivityManager(  769): freezing 5056 com.google.android.adservices.api
+08-21 11:28:21.493 W/GCH_ResultDispatcher(  527): [Cam1_ResultDispatcher] PrintTimeoutMessages: pending shutter for frame 4 ready 0
+08-21 11:28:21.494 W/GCH_ResultDispatcher(  527): [Cam1_ResultDispatcher] PrintTimeoutMessages: pending shutter for frame 5 ready 0
+08-21 11:28:21.494 W/GCH_ResultDispatcher(  527): [Cam1_ResultDispatcher] PrintTimeoutMessages: pending early result metadata for frame 3 ready 0
+08-21 11:28:21.494 W/GCH_ResultDispatcher(  527): [Cam1_ResultDispatcher] PrintTimeoutMessages: pending early result metadata for frame 4 ready 0
+08-21 11:28:21.494 W/GCH_ResultDispatcher(  527): [Cam1_ResultDispatcher] PrintTimeoutMessages: pending early result metadata for frame 5 ready 0
+08-21 11:28:21.494 W/GCH_ResultDispatcher(  527): [Cam1_ResultDispatcher] PrintTimeoutMessages: pending final result metadata for frame 3 ready 0
+08-21 11:28:21.494 W/GCH_ResultDispatcher(  527): [Cam1_ResultDispatcher] PrintTimeoutMessages: pending final result metadata for frame 4 ready 0
+08-21 11:28:21.494 W/GCH_ResultDispatcher(  527): [Cam1_ResultDispatcher] PrintTimeoutMessages: pending final result metadata for frame 5 ready 0
+08-21 11:28:21.494 W/GCH_ResultDispatcher(  527): [Cam1_ResultDispatcher] PrintTimeoutMessages: pending buffer of stream 0 for frame 3 ready 0
+08-21 11:28:21.494 W/GCH_ResultDispatcher(  527): [Cam1_ResultDispatcher] PrintTimeoutMessages: pending buffer of stream 0 for frame 4 ready 0
+08-21 11:28:21.494 W/GCH_ResultDispatcher(  527): [Cam1_ResultDispatcher] PrintTimeoutMessages: pending buffer of stream 0 for frame 5 ready 0
+08-21 11:28:21.570 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:21.571 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:21.661 I/Choreographer( 1035): Skipped 69 frames!  The application may be doing too much work on its main thread.
+08-21 11:28:21.714 I/HWUI    ( 1035): Davey! duration=1623ms; Flags=0, FrameTimelineVsyncId=2111315, IntendedVsync=7407497412886, Vsync=7407930746202, InputEventId=0, HandleInputStart=7407934439331, AnimationStart=7407934440520, PerformTraversalsStart=7407940051729, DrawStart=7407983946585, FrameDeadline=7407514079552, FrameStartTime=7407934080938, FrameInterval=16666666, WorkloadTarget=16666666, SyncQueued=7407987479819, SyncStart=7407987993238, IssueDrawCommandsStart=7407988548095, SwapBuffers=7408087125692, FrameCompleted=7409121526992, DequeueBufferDuration=13210, QueueBufferDuration=32670982, GpuCompleted=7409119154354, SwapBuffersCompleted=7409121526992, DisplayPresentTime=0, CommandSubmissionCompleted=7408087125692,
+08-21 11:28:21.757 I/org.webrtc.Logging( 9371): SurfaceEglRenderer: : Reporting first rendered frame.
+08-21 11:28:21.763 I/org.webrtc.Logging( 9371): SurfaceEglRenderer: : Reporting frame resolution changed to 480x640 with rotation 0
+08-21 11:28:21.770 D/com.oney.WebRTCModule.WebRTCModule( 9371): First frame rendered.
+08-21 11:28:21.775 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 1.
+08-21 11:28:22.128 I/HWUI    ( 1035): Davey! duration=1405ms; Flags=0, FrameTimelineVsyncId=2111493, IntendedVsync=7407997412866, Vsync=7409147412820, InputEventId=0, HandleInputStart=7409167762746, AnimationStart=7409167764379, PerformTraversalsStart=7409170095513, DrawStart=7409170164653, FrameDeadline=7409414079476, FrameStartTime=7409162360283, FrameInterval=16666666, WorkloadTarget=16666666, SyncQueued=7409170368832, SyncStart=7409378725970, IssueDrawCommandsStart=7409386144600, SwapBuffers=7409418135426, FrameCompleted=7409611208461, DequeueBufferDuration=10153995, QueueBufferDuration=12792846, GpuCompleted=7409600877213, SwapBuffersCompleted=7409611208461, DisplayPresentTime=0, CommandSubmissionCompleted=7409418135426,
+08-21 11:28:22.357 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:22.358 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:22.855 D/InetDiagMessage(  769): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+08-21 11:28:22.859 D/InetDiagMessage(  769): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+08-21 11:28:22.859 D/InetDiagMessage(  769): Destroyed live tcp sockets for uids={10095} in 5ms
+08-21 11:28:22.860 D/InetDiagMessage(  769): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+08-21 11:28:22.862 D/InetDiagMessage(  769): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+08-21 11:28:22.863 D/InetDiagMessage(  769): Destroyed live tcp sockets for uids={10140} in 3ms
+08-21 11:28:22.864 D/InetDiagMessage(  769): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+08-21 11:28:22.868 D/InetDiagMessage(  769): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+08-21 11:28:22.869 D/InetDiagMessage(  769): Destroyed live tcp sockets for uids={10213} in 6ms
+08-21 11:28:23.107 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:23.109 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:23.241 I/org.webrtc.Logging( 9371): EglRenderer: Duration: 4196 ms. Frames received: 5. Dropped: 2. Rendered: 2. Render fps: .5. Average render time: 220889 us. Average swapBuffer time: 505878 us.
+08-21 11:28:23.576 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:23.580 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:23.822 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 6.
+08-21 11:28:24.183 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:24.187 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:24.921 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:24.922 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:25.272 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:25.274 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:25.843 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 10.
+08-21 11:28:26.213 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:26.214 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:27.137 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:27.138 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:27.327 I/org.webrtc.Logging( 9371): EglRenderer: Duration: 4090 ms. Frames received: 46. Dropped: 1. Rendered: 45. Render fps: 11.0. Average render time: 12971 us. Average swapBuffer time: 39433 us.
+08-21 11:28:27.447 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:27.448 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:27.870 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 14.
+08-21 11:28:27.940 D/SatelliteController( 1153): iisInCarrierRoamingNbIotNtn: satellite is disabled
+08-21 11:28:27.970 W/IPCThreadState(  769): Sending oneway calls to frozen process.
+08-21 11:28:28.254 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:28.258 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:28.423 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:28.423 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:29.249 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:29.249 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:29.712 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:29.712 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:29.908 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 12.
+08-21 11:28:30.207 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:30.210 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:30.644 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:30.644 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:31.388 I/org.webrtc.Logging( 9371): EglRenderer: Duration: 4059 ms. Frames received: 49. Dropped: 0. Rendered: 50. Render fps: 12.3. Average render time: 9207 us. Average swapBuffer time: 38963 us.
+08-21 11:28:31.409 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:31.410 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:31.709 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:31.710 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:31.931 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 13.
+08-21 11:28:32.365 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:32.365 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:32.727 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:32.728 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:33.225 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:33.226 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:33.474 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:33.475 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:33.938 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 12.
+08-21 11:28:34.370 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:34.371 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:34.753 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:34.754 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:35.323 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:35.324 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:35.411 I/org.webrtc.Logging( 9371): EglRenderer: Duration: 4023 ms. Frames received: 48. Dropped: 0. Rendered: 48. Render fps: 11.9. Average render time: 12545 us. Average swapBuffer time: 42191 us.
+08-21 11:28:35.684 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:35.684 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:35.969 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 12.
+08-21 11:28:36.337 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:36.344 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:36.559 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:36.560 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:37.298 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:37.303 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:37.657 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:37.657 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:37.947 D/SatelliteController( 1153): iisInCarrierRoamingNbIotNtn: satellite is disabled
+08-21 11:28:37.954 W/IPCThreadState(  769): Sending oneway calls to frozen process.
+08-21 11:28:37.977 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 15.
+08-21 11:28:38.402 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:38.402 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:38.696 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:38.699 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:39.459 I/org.webrtc.Logging( 9371): EglRenderer: Duration: 4048 ms. Frames received: 56. Dropped: 0. Rendered: 55. Render fps: 13.6. Average render time: 10852 us. Average swapBuffer time: 28415 us.
+08-21 11:28:39.615 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:39.620 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:39.983 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 14.
+08-21 11:28:40.003 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:40.028 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:40.712 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:40.713 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:41.052 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:41.052 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:41.455 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:41.455 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:41.939 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:41.940 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:41.988 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 13.
+08-21 11:28:42.500 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:42.501 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:42.816 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:42.817 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:43.456 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:43.457 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:43.465 I/org.webrtc.Logging( 9371): EglRenderer: Duration: 4006 ms. Frames received: 50. Dropped: 0. Rendered: 51. Render fps: 12.7. Average render time: 12320 us. Average swapBuffer time: 35967 us.
+08-21 11:28:43.722 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:43.732 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:44.017 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 13.
+08-21 11:28:44.564 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:44.570 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:45.000 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:45.000 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:45.741 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:45.742 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:46.038 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 11.
+08-21 11:28:46.122 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:46.123 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:46.481 W/JobInfo ( 4625): Requested important-while-foreground flag for job555000115 is ignored and takes no effect
+08-21 11:28:46.534 W/ProcessStats(  769): Tracking association SourceState{c3e9733 system/1000 ImpBg #7061} whose proc state 6 is better than process ProcessState{36c535c com.google.android.apps.photos/10169 pkg=com.google.android.apps.photos} proc state 15 (40 skipped)
+08-21 11:28:46.596 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:46.596 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:46.602 D/ConnectivityService(  769): requestNetwork for uid/pid:10169/4625 activeRequest: null callbackRequest: 292 [NetworkRequest [ REQUEST id=293, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10169 RequestorUid: 10169 RequestorPkg: com.google.android.apps.photos UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false declaredMethods: AVAIL|LOST|NC|BLK
+08-21 11:28:46.616 D/OemPaidWifiNetworkFactory(  769): got request NetworkRequest [ REQUEST id=293, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10169 RequestorUid: 10169 RequestorPkg: com.google.android.apps.photos UnderlyingNetworks: Null] ]
+08-21 11:28:46.617 D/ConnectivityService(  769): NetReassign [293 : null → 101] [c 0] [a 5] [i 7]
+08-21 11:28:46.617 D/MultiInternetWifiNetworkFactory(  769): got request NetworkRequest [ REQUEST id=293, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10169 RequestorUid: 10169 RequestorPkg: com.google.android.apps.photos UnderlyingNetworks: Null] ]
+08-21 11:28:46.618 D/WifiNetworkFactory(  769): got request NetworkRequest [ REQUEST id=293, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10169 RequestorUid: 10169 RequestorPkg: com.google.android.apps.photos UnderlyingNetworks: Null] ]
+08-21 11:28:46.618 D/UntrustedWifiNetworkFactory(  769): got request NetworkRequest [ REQUEST id=293, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10169 RequestorUid: 10169 RequestorPkg: com.google.android.apps.photos UnderlyingNetworks: Null] ]
+08-21 11:28:46.891 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:46.892 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:47.127 I/IPCThreadState( 1350): oneway function results for code 2 on binder at 0x75993a97c750 will be dropped but finished with status UNKNOWN_TRANSACTION
+08-21 11:28:47.147 I/IPCThreadState( 1350): oneway function results for code 2 on binder at 0x75993a9795d0 will be dropped but finished with status UNKNOWN_TRANSACTION
+08-21 11:28:47.525 I/org.webrtc.Logging( 9371): EglRenderer: Duration: 4060 ms. Frames received: 47. Dropped: 1. Rendered: 46. Render fps: 11.3. Average render time: 11410 us. Average swapBuffer time: 48948 us.
+08-21 11:28:47.618 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:47.618 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:47.874 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:47.875 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:47.960 D/SatelliteController( 1153): iisInCarrierRoamingNbIotNtn: satellite is disabled
+08-21 11:28:47.974 W/IPCThreadState(  769): Sending oneway calls to frozen process.
+08-21 11:28:48.040 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 14.
+08-21 11:28:48.563 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:48.563 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:48.779 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:48.783 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:49.574 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:49.577 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:49.743 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:49.744 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:50.045 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 14.
+08-21 11:28:50.565 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:50.567 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:50.838 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:50.838 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:51.558 I/org.webrtc.Logging( 9371): EglRenderer: Duration: 4032 ms. Frames received: 58. Dropped: 0. Rendered: 58. Render fps: 14.4. Average render time: 7437 us. Average swapBuffer time: 23350 us.
+08-21 11:28:51.568 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:51.571 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:51.854 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:51.854 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:52.053 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 14.
+08-21 11:28:52.224 D/InetDiagMessage(  769): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+08-21 11:28:52.238 D/InetDiagMessage(  769): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+08-21 11:28:52.239 D/InetDiagMessage(  769): Destroyed live tcp sockets for uids={10169} in 18ms
+08-21 11:28:52.239 D/InetDiagMessage(  769): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+08-21 11:28:52.241 D/InetDiagMessage(  769): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+08-21 11:28:52.242 D/InetDiagMessage(  769): Destroyed live tcp sockets for uids={20169} in 3ms
+08-21 11:28:52.621 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:52.625 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:53.029 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:53.031 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:53.138 D/NetworkStatsObservers(  769): Unregistering RequestInfo from pid/uid:769/1000(android) for DataUsageRequest [ requestId=20, networkTemplate=NetworkTemplate: matchRule=MOBILE, matchSubscriberIds=[310260...], matchWifiNetworkKeys=[], metered=YES, defaultNetwork=NO, thresholdInBytes=11890612 ] accessLevel:3
+08-21 11:28:53.185 D/NetworkStatsObservers(  769): Registering observer for RequestInfo from pid/uid:769/1000(android) for DataUsageRequest [ requestId=21, networkTemplate=NetworkTemplate: matchRule=MOBILE, matchSubscriberIds=[310260...], matchWifiNetworkKeys=[], metered=YES, defaultNetwork=NO, thresholdInBytes=11890451 ] accessLevel:3
+08-21 11:28:53.725 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:53.725 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:53.988 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:53.988 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:54.055 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 13.
+08-21 11:28:54.666 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:54.666 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:55.615 I/org.webrtc.Logging( 9371): EglRenderer: Duration: 4055 ms. Frames received: 55. Dropped: 0. Rendered: 54. Render fps: 13.3. Average render time: 11701 us. Average swapBuffer time: 26053 us.
+08-21 11:28:55.753 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:55.754 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:56.017 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:56.018 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:56.055 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 14.
+08-21 11:28:56.646 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:56.649 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:56.833 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:56.834 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:57.227 D/ActivityManager(  769): freezing 4625 com.google.android.apps.photos
+08-21 11:28:57.272 D/InetDiagMessage(  769): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+08-21 11:28:57.274 D/InetDiagMessage(  769): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+08-21 11:28:57.274 D/InetDiagMessage(  769): Destroyed live tcp sockets for uids={10169} in 3ms
+08-21 11:28:57.709 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:57.712 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:57.947 D/SatelliteController( 1153): iisInCarrierRoamingNbIotNtn: satellite is disabled
+08-21 11:28:57.959 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:57.959 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:57.960 W/IPCThreadState(  769): Sending oneway calls to frozen process.
+08-21 11:28:58.070 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 14.
+08-21 11:28:58.743 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:58.743 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:59.045 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:59.046 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:59.638 I/org.webrtc.Logging( 9371): EglRenderer: Duration: 4024 ms. Frames received: 55. Dropped: 0. Rendered: 56. Render fps: 13.9. Average render time: 9767 us. Average swapBuffer time: 25039 us.
+08-21 11:28:59.722 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:59.723 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:59.909 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:28:59.910 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:00.072 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 14.
+08-21 11:29:00.703 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:00.703 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:00.926 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:00.926 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:01.700 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:01.703 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:01.901 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:01.905 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:02.085 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 15.
+08-21 11:29:02.912 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:02.913 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:03.258 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:03.259 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:03.675 I/org.webrtc.Logging( 9371): EglRenderer: Duration: 4037 ms. Frames received: 52. Dropped: 0. Rendered: 52. Render fps: 12.9. Average render time: 9264 us. Average swapBuffer time: 26449 us.
+08-21 11:29:03.889 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:03.890 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:04.091 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 12.
+08-21 11:29:04.481 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:04.481 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:04.795 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:04.795 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:05.198 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:05.203 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:05.841 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:05.842 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:06.096 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 11.
+08-21 11:29:06.181 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:06.182 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:06.839 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:06.844 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:07.060 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:07.060 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:07.696 I/org.webrtc.Logging( 9371): EglRenderer: Duration: 4019 ms. Frames received: 48. Dropped: 1. Rendered: 46. Render fps: 11.4. Average render time: 11178 us. Average swapBuffer time: 39444 us.
+08-21 11:29:07.913 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:07.924 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:07.975 D/SatelliteController( 1153): iisInCarrierRoamingNbIotNtn: satellite is disabled
+08-21 11:29:08.014 W/IPCThreadState(  769): Sending oneway calls to frozen process.
+08-21 11:29:08.191 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 14.
+08-21 11:29:08.332 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:08.340 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:08.865 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:08.865 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:09.027 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:09.028 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:09.943 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:09.948 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:10.194 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 13.
+08-21 11:29:11.022 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:11.024 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:11.391 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:11.391 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:11.759 I/org.webrtc.Logging( 9371): EglRenderer: Duration: 4062 ms. Frames received: 53. Dropped: 0. Rendered: 54. Render fps: 13.3. Average render time: 10615 us. Average swapBuffer time: 30680 us.
+08-21 11:29:11.974 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:11.975 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:12.192 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:12.192 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:12.201 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 14.
+08-21 11:29:12.900 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:12.902 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:13.067 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:13.068 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:13.994 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:13.995 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:14.196 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:14.199 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:14.219 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 14.
+08-21 11:29:14.905 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:14.906 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:15.079 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:15.080 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:15.762 I/org.webrtc.Logging( 9371): EglRenderer: Duration: 4004 ms. Frames received: 56. Dropped: 0. Rendered: 56. Render fps: 14.0. Average render time: 6950 us. Average swapBuffer time: 18593 us.
+08-21 11:29:15.922 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:15.922 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:16.097 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:16.098 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:16.223 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 14.
+08-21 11:29:17.039 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:17.055 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:17.205 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:17.206 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:17.954 D/SatelliteController( 1153): iisInCarrierRoamingNbIotNtn: satellite is disabled
+08-21 11:29:17.957 W/IPCThreadState(  769): Sending oneway calls to frozen process.
+08-21 11:29:18.022 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:18.025 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:18.226 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 15.
+08-21 11:29:18.322 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:18.323 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:19.013 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:19.013 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:19.203 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:19.206 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:19.777 I/org.webrtc.Logging( 9371): EglRenderer: Duration: 4015 ms. Frames received: 58. Dropped: 0. Rendered: 58. Render fps: 14.4. Average render time: 6322 us. Average swapBuffer time: 15910 us.
+08-21 11:29:20.011 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:20.014 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:20.255 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 14.
+08-21 11:29:20.446 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:20.447 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:21.060 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:21.061 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:21.298 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:21.299 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:22.052 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:22.052 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:22.230 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:22.230 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:22.256 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 15.
+08-21 11:29:23.035 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:23.035 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:23.240 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:23.241 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:23.800 I/org.webrtc.Logging( 9371): EglRenderer: Duration: 4022 ms. Frames received: 57. Dropped: 0. Rendered: 57. Render fps: 14.2. Average render time: 6187 us. Average swapBuffer time: 18174 us.
+08-21 11:29:24.043 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:24.043 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:24.156 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:24.156 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:24.265 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 15.
+08-21 11:29:25.123 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:25.125 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:25.245 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:25.247 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:26.075 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:26.077 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:26.239 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:26.240 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:26.269 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 15.
+08-21 11:29:27.066 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:27.067 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:27.166 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:27.167 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:27.809 I/org.webrtc.Logging( 9371): EglRenderer: Duration: 4009 ms. Frames received: 58. Dropped: 0. Rendered: 58. Render fps: 14.5. Average render time: 4425 us. Average swapBuffer time: 12528 us.
+08-21 11:29:27.976 D/SatelliteController( 1153): iisInCarrierRoamingNbIotNtn: satellite is disabled
+08-21 11:29:27.978 W/IPCThreadState(  769): Sending oneway calls to frozen process.
+08-21 11:29:28.222 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:28.222 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:28.316 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 15.
+08-21 11:29:28.355 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:28.355 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:29.166 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:29.169 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:29.353 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:29.354 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:30.166 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:30.177 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:30.303 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:30.316 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:30.319 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 15.
+08-21 11:29:31.155 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:31.155 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:31.273 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:31.274 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:31.812 I/org.webrtc.Logging( 9371): EglRenderer: Duration: 4003 ms. Frames received: 58. Dropped: 0. Rendered: 58. Render fps: 14.5. Average render time: 5086 us. Average swapBuffer time: 13316 us.
+08-21 11:29:32.140 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:32.141 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:32.243 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:32.244 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:32.320 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 15.
+08-21 11:29:33.221 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:33.222 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:33.359 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:33.361 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:34.254 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:34.255 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:34.328 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 15.
+08-21 11:29:34.378 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:34.378 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:35.205 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:35.205 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:35.344 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:35.346 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:35.815 I/org.webrtc.Logging( 9371): EglRenderer: Duration: 4003 ms. Frames received: 58. Dropped: 0. Rendered: 58. Render fps: 14.5. Average render time: 4122 us. Average swapBuffer time: 12008 us.
+08-21 11:29:36.245 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:36.245 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:36.336 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 15.
+08-21 11:29:36.368 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:36.369 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:37.355 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:37.355 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:37.601 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:37.604 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:37.946 D/SatelliteController( 1153): iisInCarrierRoamingNbIotNtn: satellite is disabled
+08-21 11:29:37.962 W/IPCThreadState(  769): Sending oneway calls to frozen process.
+08-21 11:29:38.337 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 14.
+08-21 11:29:38.514 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:38.514 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:38.927 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:38.934 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:39.463 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:39.468 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:39.796 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:39.806 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:39.851 I/org.webrtc.Logging( 9371): EglRenderer: Duration: 4035 ms. Frames received: 56. Dropped: 0. Rendered: 55. Render fps: 13.6. Average render time: 7534 us. Average swapBuffer time: 21804 us.
+08-21 11:29:40.387 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 14.
+08-21 11:29:40.558 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:40.559 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:41.129 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:41.130 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:41.366 I/system_server(  769): Background concurrent mark compact GC freed 24MB AllocSpace bytes, 1(36KB) LOS objects, 41% free, 34MB/58MB, paused 6.624ms,27.693ms total 1.453s
+08-21 11:29:41.779 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:41.781 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:42.186 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:42.214 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:42.407 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 11.
+08-21 11:29:42.912 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:42.914 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:43.175 W/screencap(10368): Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+08-21 11:29:43.178 W/BpBinder(10368): Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+08-21 11:29:43.179 W/ProcessState(10368): Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+08-21 11:29:43.212 E/HwcComposer(  591): getLuts failed Status(-8, EX_SERVICE_SPECIFIC): '8: '
+08-21 11:29:43.212 E/HWComposer(  591): getLuts: getLuts failed for display 4619827259835644672: UNSUPPORTED (8)
+08-21 11:29:43.374 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:43.375 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:43.742 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:43.743 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:43.915 I/org.webrtc.Logging( 9371): EglRenderer: Duration: 4063 ms. Frames received: 46. Dropped: 2. Rendered: 44. Render fps: 10.8. Average render time: 19498 us. Average swapBuffer time: 42141 us.
+08-21 11:29:44.037 W/MediaProvider( 1486): isAppCloneUserPair for user 0: false
+08-21 11:29:44.483 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:44.483 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:44.494 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 12.
+08-21 11:29:44.886 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:44.887 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:44.893 D/ActivityManager(  769): sync unfroze 2069 com.google.android.gms for 6
+08-21 11:29:44.983 D/ActivityManager(  769): sync unfroze 4625 com.google.android.apps.photos for 6
+08-21 11:29:44.989 W/Looper  ( 2069): Slow delivery took 83205ms android.bg app=com.google.android.gms main=false group=FOREGROUND h=android.database.sqlite.SQLiteConnectionPool$IdleConnectionHandler c=null m=3
+08-21 11:29:45.042 D/ActivityManager(  769): sync unfroze 1640 android.process.acore for 6
+08-21 11:29:45.085 D/ActivityManager(  769): sync unfroze 5535 com.google.android.apps.restore for 6
+08-21 11:29:45.098 W/Looper  ( 1640): Slow delivery took 83206ms android.bg app=android.process.acore main=false group=FOREGROUND h=android.database.sqlite.SQLiteConnectionPool$IdleConnectionHandler c=null m=13
+08-21 11:29:45.222 D/ActivityManager(  769): sync unfroze 5056 com.google.android.adservices.api for 6
+08-21 11:29:45.283 W/ProcessStats(  769): Tracking association SourceState{30777f8 com.google.android.gms.persistent/10148 ImpBg #7068} whose proc state 6 is better than process ProcessState{3f5a17 com.google.android.gms/10148 pkg=com.google.android.gms} proc state 14 (4 skipped)
+08-21 11:29:45.324 I/NetworkScheduler.Stats( 1350): (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+08-21 11:29:45.330 D/BoundBrokerSvc( 2069): onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS xflg=0x4 pkg=com.google.android.gms }
+08-21 11:29:45.450 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:45.452 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:45.534 I/NetworkScheduler.Stats( 1350): (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+08-21 11:29:45.700 I/ActivityManager(  769): Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+08-21 11:29:45.736 I/ActivityManager(  769): Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+08-21 11:29:45.757 W/JobInfo (  769): Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+08-21 11:29:45.784 I/ActivityManager(  769): Broadcast completed: result=0
+08-21 11:29:45.850 I/MediaProvider( 1486): Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+08-21 11:29:45.918 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:45.919 W/unknown:ReactNative( 9371): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+08-21 11:29:46.133 I/MdiSyncModule( 2069): (REDACTED) Dispatching task '%s'...
+08-21 11:29:46.309 I/NetworkScheduler.Stats( 1350): (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+08-21 11:29:46.328 I/NetworkScheduler.Stats( 1350): (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+08-21 11:29:46.336 I/MediaProvider( 1486): End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+08-21 11:29:46.481 I/NetworkScheduler.Stats( 1350): (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+08-21 11:29:46.525 I/org.webrtc.Logging( 9371): CameraStatistics: Camera fps: 12.

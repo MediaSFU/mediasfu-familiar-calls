@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-20",
+  "environment": "staging",
+  "sdk": "mediasfu-reactjs",
+  "applicationFlow": "identity -> contact call -> incoming accept -> custom call screen",
+  "participants": 2,
+  "manualMeetingIdUi": false,
+  "roomCreatedByBackend": true,
+  "incomingCallObserved": true,
+  "recipientAccepted": true,
+  "bothClientsLive": true,
+  "produced": ["canvas-video"],
+  "consumed": ["remote-video"],
+  "remoteVideo": {
+    "width": 240,
+    "height": 134,
+    "readyState": 4,
+    "playing": true
+  },
+  "audioRendererMountPointPresent": true,
+  "remoteAudioPlaybackObserved": false,
+  "cameraAndMicrophoneProductionClaimed": false,
+  "teardown": "sdk-leave-invoked-and-both-session-histories-ended",
+  "remoteRoomDeletionClaimed": false,
+  "credentialsRetained": false,
+  "screenshots": [
+    "06-staging-incoming-contact-call.png",
+    "07-staging-caller-test-media.png",
+    "08-staging-recipient-remote-media.png"
+  ]
+}

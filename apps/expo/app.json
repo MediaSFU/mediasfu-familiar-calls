@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "MediaSFU Familiar Calls",
+    "slug": "mediasfu-familiar-calls",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "android": {
+      "package": "com.mediasfu.examples.familiarcalls",
+      "permissions": ["CAMERA", "RECORD_AUDIO"]
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      [
+        "mediasfu-reactnative-expo/plugins/withMediaSFUWebRTC",
+        {
+          "cameraPermission": "Allow MediaSFU Familiar Calls to use your camera.",
+          "microphonePermission": "Allow MediaSFU Familiar Calls to use your microphone."
+        }
+      ],
+      "expo-audio"
+    ]
+  }
+}

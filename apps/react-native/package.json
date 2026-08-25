@@ -1,0 +1,81 @@
+{
+  "name": "mediasfu-familiar-call-react-native",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "lint": "eslint App.js CallInterface.js index.js __tests__ src",
+    "bundle:whip-whep:android": "react-native bundle --platform android --dev false --entry-file index.whip-whep.js --bundle-output build/whip-whep/index.android.bundle --assets-dest build/whip-whep/assets",
+    "lint:whip-whep": "eslint --config .eslintrc.js WhipWhepApp.js index.whip-whep.js ../../packages/whip-whep-react-native/src",
+    "start": "react-native start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.23.1",
+    "@react-native-clipboard/clipboard": "^1.14.3",
+    "@react-native-community/slider": "5.2.0",
+    "@react-native-picker/picker": "^2.7.5",
+    "@react-native/new-app-screen": "0.86.2",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/native-stack": "^6.11.0",
+    "mediasfu-reactnative": "2.4.0",
+    "mediasoup-client": "^3.20.0",
+    "react": "19.2.3",
+    "react-native": "0.86.2",
+    "react-native-dotenv": "^3.4.11",
+    "react-native-gesture-handler": "2.32.0",
+    "react-native-image-picker": "^7.1.0",
+    "react-native-permissions": "^5.0.2",
+    "react-native-picker-select": "^9.3.1",
+    "react-native-reanimated": "4.5.3",
+    "react-native-safe-area-context": "5.7.0",
+    "react-native-screens": "4.26.0",
+    "react-native-sound": "^0.11.2",
+    "react-native-status-bar-height": "^2.6.0",
+    "react-native-vector-icons": "^10.2.0",
+    "react-native-video": "^6.7.0",
+    "react-native-webrtc": "124.0.8",
+    "react-native-webrtc-web-shim": "^1.0.7",
+    "react-native-worklets": "0.11.3",
+    "reanimated-color-picker": "^4.2.0",
+    "socket.io-client": "^4.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/runtime": "^7.25.0",
+    "@react-native-community/cli": "20.1.0",
+    "@react-native-community/cli-platform-android": "20.1.0",
+    "@react-native-community/cli-platform-ios": "20.1.0",
+    "@react-native/babel-preset": "0.86.2",
+    "@react-native/eslint-config": "0.86.2",
+    "@react-native/jest-preset": "0.86.2",
+    "@react-native/metro-config": "0.86.2",
+    "@react-native/typescript-config": "0.86.2",
+    "@types/react": "^19.2.0",
+    "@types/react-native-vector-icons": "^6.4.18",
+    "@types/react-test-renderer": "^19.1.0",
+    "babel-jest": "^29.6.3",
+    "eslint": "^8.19.0",
+    "jest": "^29.6.3",
+    "prettier": "2.8.8",
+    "react-test-renderer": "19.2.3",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "overrides": {
+    "react-native-webrtc-web-shim": {
+      "react-native-web": "0.21.1"
+    },
+    "react-native-web": {
+      "react": "19.2.3",
+      "react-dom": "19.2.3"
+    },
+    "react-dom": {
+      "react": "19.2.3"
+    }
+  }
+}

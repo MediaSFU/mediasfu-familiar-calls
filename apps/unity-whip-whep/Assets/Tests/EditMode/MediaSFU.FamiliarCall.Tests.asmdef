@@ -1,0 +1,23 @@
+{
+  "name": "MediaSFU.FamiliarCall.Tests",
+  "rootNamespace": "MediaSFU.FamiliarCall.Tests",
+  "references": [
+    "MediaSFU.FamiliarCall"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

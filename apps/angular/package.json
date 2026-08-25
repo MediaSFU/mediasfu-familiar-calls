@@ -1,0 +1,46 @@
+{
+  "name": "mediasfu-familiar-call-angular",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "ng serve familiar-call --host 127.0.0.1 --port 4174 --proxy-config proxy.conf.cjs",
+    "build": "ng build familiar-call --configuration production",
+    "dev:whip-whep": "ng serve familiar-call-whip-whep --host 127.0.0.1 --port 4182 --proxy-config proxy.conf.cjs",
+    "build:whip-whep": "ng build familiar-call-whip-whep --configuration production"
+  },
+  "dependencies": {
+    "@angular/animations": "^19.2.20",
+    "@angular/cdk": "^19.2.19",
+    "@angular/common": "^19.2.20",
+    "@angular/compiler": "^19.2.20",
+    "@angular/core": "^19.2.20",
+    "@angular/forms": "^19.2.20",
+    "@angular/platform-browser": "^19.2.20",
+    "@angular/platform-browser-dynamic": "^19.2.20",
+    "@angular/router": "^19.2.20",
+    "@fortawesome/angular-fontawesome": "^1.0.0",
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@mediapipe/selfie_segmentation": "^0.1.1675465747",
+    "@zxing/browser": "^0.1.5",
+    "@zxing/library": "^0.21.3",
+    "@zxing/ngx-scanner": "^19.0.0",
+    "bootstrap": "^5.3.8",
+    "mediasfu-angular": "2.3.1",
+    "mediasfu-shared": "1.1.0",
+    "mediasoup-client": "^3.20.0",
+    "ngx-cookie-service": "^19.1.2",
+    "rxjs": "~7.8.0",
+    "socket.io-client": "^4.8.3",
+    "tslib": "^2.8.1",
+    "zone.js": "^0.15.1"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^19.2.19",
+    "@angular/cli": "^19.2.19",
+    "@angular/compiler-cli": "^19.2.20",
+    "@types/node": "^22.15.0",
+    "typescript": "~5.5.4"
+  }
+}

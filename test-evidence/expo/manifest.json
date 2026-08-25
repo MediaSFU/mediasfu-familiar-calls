@@ -1,0 +1,31 @@
+{
+  "environment": "staging",
+  "platform": "expo-web",
+  "sdk": "mediasfu-reactnative-expo@2.4.3-local",
+  "shared": "mediasfu-shared@1.0.6-local",
+  "date": "2026-08-21",
+  "participants": 2,
+  "separateOrigins": ["127.0.0.1", "localhost"],
+  "roomCreatedViaBackend": true,
+  "inviteObserved": true,
+  "guestAccepted": true,
+  "hostConnected": true,
+  "guestConnected": true,
+  "produced": [],
+  "consumed": [],
+  "mediaVerification": "not observed in the in-app browser; native development-build acceptance remains required",
+  "screenShareObserved": false,
+  "teardown": "passed",
+  "endedHistoryObservedForBothParticipants": true,
+  "credentialsRetained": false,
+  "screenshots": [
+    "01-host-connected-real-staging-web.png",
+    "02-guest-connected-real-staging-web.png",
+    "03-host-ended-history-web.png"
+  ],
+  "buildVerification": {
+    "typescript": "passed",
+    "javascriptSyntax": "passed",
+    "expoWebExport": "passed (1436 modules)"
+  }
+}

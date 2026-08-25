@@ -1,0 +1,32 @@
+{
+  "date": "2026-08-21",
+  "environment": "staging",
+  "participants": {
+    "native": "React Native 0.86 on Android API 36 x86_64 emulator",
+    "remote": "React web peer"
+  },
+  "simultaneousSurfaces": {
+    "mainBeforeSwap": "remote WebPeer video",
+    "miniBeforeSwap": "local You video",
+    "evidence": "09-rn-remote-main-local-mini.png"
+  },
+  "drag": {
+    "input": "emulator touchscreen swipe",
+    "start": { "x": 830, "y": 470 },
+    "end": { "x": 300, "y": 700 },
+    "durationMs": 1000,
+    "observedBefore": "upper-right",
+    "observedAfter": "upper-left",
+    "evidence": "10-rn-mini-dragged.png"
+  },
+  "doubleTapSwap": {
+    "input": "two emulator touchscreen taps",
+    "position": { "x": 310, "y": 480 },
+    "intervalMs": 120,
+    "mainAfterSwap": "local You video",
+    "miniAfterSwap": "remote WebPeer video",
+    "evidence": "11-rn-after-double-tap-swap.png"
+  },
+  "credentialsRetained": false,
+  "meetingIdentifierRetained": false
+}

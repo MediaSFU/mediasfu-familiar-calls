@@ -1,0 +1,33 @@
+{
+  "name": "mediasfu-familiar-call-vue",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4174",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4174",
+    "dev:whip-whep": "vite --host 127.0.0.1 --port 4181",
+    "build:whip-whep": "vue-tsc --noEmit && vite build"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^7.1.0",
+    "@fortawesome/free-brands-svg-icons": "^7.1.0",
+    "@fortawesome/free-solid-svg-icons": "^7.1.0",
+    "@fortawesome/vue-fontawesome": "^3.1.2",
+    "@mediapipe/selfie_segmentation": "^0.1.1675465747",
+    "mediasfu-shared": "1.1.0",
+    "mediasfu-vue": "1.1.1",
+    "mediasoup-client": "^3.20.0",
+    "socket.io-client": "^4.8.1",
+    "vue": "^3.5.22"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.0",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/tsconfig": "^0.8.1",
+    "typescript": "~5.9.3",
+    "vite": "^7.1.7",
+    "vue-tsc": "^3.1.0"
+  }
+}

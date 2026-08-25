@@ -1,0 +1,2 @@
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;background:#eef4f0;color:#18372b;font-family:Inter,ui-sans-serif,system-ui,-apple-system,sans-serif}button,input{font:inherit}
+app-root{display:block;width:100%;min-height:100vh}app-root .call-shell{width:100%;min-width:100%}app-root .call-shell>app-mediasfu-generic{position:fixed!important;left:-10000px!important;top:-10000px!important;width:1px!important;height:1px!important;overflow:hidden!important;opacity:0!important;pointer-events:none!important}

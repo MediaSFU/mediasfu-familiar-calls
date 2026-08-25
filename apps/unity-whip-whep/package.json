@@ -1,0 +1,8 @@
+{
+  "name": "mediasfu-familiar-call-unity-whip-whep",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "node scripts/verify.mjs"
+  }
+}

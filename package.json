@@ -1,0 +1,27 @@
+{
+  "name": "mediasfu-familiar-calls-multisdk",
+  "version": "0.1.0",
+  "private": true,
+  "description": "WhatsApp-style two-person calling starters for MediaSFU SDKs and standards-based WHIP/WHEP clients.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MediaSFU/mediasfu-familiar-calls.git"
+  },
+  "homepage": "https://mediasfu.com",
+  "keywords": [
+    "mediasfu",
+    "webrtc",
+    "video-calling",
+    "whip",
+    "whep",
+    "multi-sdk"
+  ],
+  "scripts": {
+    "test:core": "npm --prefix server test && npm --prefix apps/whip-whep test && npm --prefix packages/whip-whep-react-native test && node scripts/test-call-surface-parity.cjs",
+    "build:web": "npm --prefix apps/react run build && npm --prefix apps/angular run build && npm --prefix apps/vue run build && npm --prefix apps/whip-whep run build"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

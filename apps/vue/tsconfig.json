@@ -1,0 +1,11 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "include": ["src/**/*.ts", "src/**/*.vue", "App.vue"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": { "mediasfu-vue": ["src/mediasfu-vue.d.ts"] },
+    "types": ["vite/client", "node"],
+    "skipLibCheck": true,
+    "strict": true
+  }
+}
