@@ -14,6 +14,7 @@ successful source/build checks separate from behavior observed in a live room.
 | Expo | Type check and production Web export pass | Two Web identities completed create, invite, accept, SDK connection, and teardown. Native development-build media acceptance is not yet evidenced |
 | Flutter | Focused tests, analysis, and Android debug APK build/install/launch pass | Two-person live-room media acceptance is not yet evidenced |
 | Kotlin / Android SDK | Compose compilation, presentation tests, Android lint, debug APK build, install, and launch pass | Two-person SDK media acceptance is not yet evidenced |
+| Swift / iOS | Swift source parses and type-checks against the iOS simulator SDK; Apple SDK room-host integration is included | Physical-device two-person media, screen-share, audio, and teardown evidence is still required |
 | Browser framework WHIP/WHEP hosts | Shared protocol tests and React, Angular, and Vue production builds pass without MediaSFU SDK imports | The shared browser core has live-room proof; per-framework interaction evidence is not yet available |
 | React Native and Expo WHIP/WHEP | Shared protocol/presentation tests and the Android Metro production bundle pass | Native publication, playback, audible-audio, gesture, and screen-share acceptance are not yet evidenced |
 | Flutter WHIP/WHEP | Protocol/presentation tests and focused analysis pass | Native publication, playback, audible-audio, gesture, and screen-share acceptance are not yet evidenced |

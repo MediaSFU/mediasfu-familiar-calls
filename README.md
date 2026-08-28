@@ -54,6 +54,7 @@ URL or `localLink` does not install or start that server.
 | `apps/expo` | `mediasfu-reactnative-expo` plus an SDK-free development-build alternate | Expo development builds; Expo Go does not include the required native WebRTC modules |
 | `apps/flutter` | `mediasfu_sdk` plus a `flutter_webrtc` WHIP/WHEP entry | Flutter mobile and desktop application structure |
 | `apps/kotlin-android` | `mediasfu-sdk-kotlin` headless Compose room | Native Android applications using the MediaSFU SDK |
+| `apps/ios` | SwiftUI identity, call lifecycle, and MediaSFU Apple SDK room host | Native iOS applications (iOS 16+) |
 | `apps/kotlin-android-whip-whep` | Android WebRTC with direct WHIP/WHEP transport | Native Android applications that do not use a MediaSFU client SDK |
 | `apps/whip-whep` | Browser WebRTC with direct WHIP/WHEP transport | Standards-only browser integrations and protocol learning |
 | `apps/unity-whip-whep` | Unity WebRTC with direct WHIP/WHEP transport | Unity scene integration; test Editor/player media before distributing a Unity build |
