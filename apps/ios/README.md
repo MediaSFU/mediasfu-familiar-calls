@@ -4,12 +4,23 @@ This folder is the native iOS port of the familiar-calls starter. It mirrors
 the Android, Flutter, and React Native journey: local identity → contact call
 creation/acceptance → MediaSFU room → mute, camera, screen share, and end.
 
-Add the files in this folder to an iOS 16+ Xcode app and add the Swift package
-`https://github.com/MediaSFU/mediasfu-apple-sdk.git` (version `0.1.5` or later).
-Add `NSCameraUsageDescription` and `NSMicrophoneUsageDescription` to the app's
-Info.plist. Set `CALL_API_ORIGIN` to the URL of the familiar-calls backend.
+## Add it to an app
 
-The app reads `MEDIASFU_API_USERNAME`, `MEDIASFU_API_KEY`, and the optional
-`MEDIASFU_CLOUD_ROOMS_ENDPOINT` only from the launch environment. Production
-apps should keep credentials on the backend proxy and pass room-scoped data to
-the SDK; no credential or environment-specific endpoint belongs in this repo.
+1. Create an iOS 16+ SwiftUI target in Xcode.
+2. Add the files in this folder to the target.
+3. Add `https://github.com/MediaSFU/mediasfu-apple-sdk.git` as a Swift package
+   dependency and link `MediaSFUAppleSDK` to the app target.
+4. Add `NSCameraUsageDescription` and `NSMicrophoneUsageDescription` to the
+   target's Info.plist.
+5. Run the shared familiar-calls backend and set `CALL_API_ORIGIN` to its public
+   origin when it is not available at the default development address.
+
+The iOS app never needs an account API key. Its SDK wrapper supplies non-secret,
+shape-valid placeholders to select the no-UI pre-join path. The backend creates
+or joins the room, and the Apple SDK replaces those placeholders with the
+returned room-scoped `roomName`, `secret`, and `link` before connecting the
+socket. Keep account credentials in the backend's private environment.
+
+On a physical iPhone, `127.0.0.1` refers to the phone. Use an HTTPS backend URL
+that the device can reach and set `CALL_API_ORIGIN` in the scheme or app
+configuration. Do not place credentials in that value.
