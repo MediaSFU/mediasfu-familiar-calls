@@ -17,6 +17,7 @@ struct FamiliarCallsRootView: View {
         FamiliarCallView(model: model)
       }
     }
+    .frame(maxWidth: .infinity, maxHeight: .infinity)
     .preferredColorScheme(.light)
   }
 }
@@ -341,7 +342,7 @@ struct FamiliarHomeView: View {
       }.padding(18).frame(maxWidth: 700)
     }.background(familiarBackground.ignoresSafeArea()).task {
       while !Task.isCancelled {
-        try? await Task.sleep(for: .seconds(1.5))
+        try? await Task.sleep(nanoseconds: 1_500_000_000)
         model.refresh()
       }
     }
@@ -358,50 +359,89 @@ struct FamiliarCallView: View {
   }
   private var roomApiToken: String { model.roomData["secret"] as? String ?? "" }
   private var roomLink: String { model.roomData["link"] as? String ?? "" }
+  private var isHost: Bool { session.hostUserId == identity.userId }
+  private var adminPasscode: String {
+    model.roomData["secureCode"] as? String ?? (isHost ? roomApiToken : "")
+  }
   var body: some View {
-    ZStack(alignment: .bottom) {
+    ZStack {
       MediaSFUNativeRoomView(
         controller: room,
         configuration: MediaSFURoomConfiguration(
           userName: identity.displayName, roomName: mediaSFURoomName, roomApiToken: roomApiToken,
-          roomLink: roomLink, action: "join")
+          roomLink: roomLink, islevel: isHost ? "2" : "1", adminPasscode: adminPasscode,
+          action: isHost ? "create" : "join")
       )
-      .ignoresSafeArea()
+      .ignoresSafeArea().allowsHitTesting(false).accessibilityHidden(true)
+      familiarBackground.ignoresSafeArea()
       VStack(spacing: 12) {
         HStack {
-          VStack(alignment: .leading) {
-            Text("MEDIA CALL").font(.caption.weight(.bold))
+          VStack(alignment: .leading, spacing: 3) {
+            Text("MEDIA CALL").font(.caption2.weight(.black)).tracking(1.4)
+              .foregroundStyle(familiarMuted)
             Text(session.hostUserId == identity.userId ? session.targetUserId : session.hostUserId)
-              .font(.title2.bold())
+              .font(.title2.bold()).lineLimit(1).minimumScaleFactor(0.72)
+              .foregroundStyle(familiarInk)
           }
           Spacer()
-          Text(room.state).font(.caption).padding(8).background(.thinMaterial).clipShape(Capsule())
-        }.foregroundStyle(.white)
-        Spacer()
-        HStack(spacing: 14) {
-          Button {
+          HStack(spacing: 6) {
+            Circle().fill(room.state == "Connected" ? familiarGreen : .orange)
+              .frame(width: 7, height: 7)
+            Text(room.state).font(.caption.weight(.bold)).lineLimit(1)
+          }
+          .foregroundStyle(familiarInk).padding(.horizontal, 10).padding(.vertical, 7)
+          .background(Color.white).clipShape(Capsule())
+          .overlay(Capsule().stroke(Color.black.opacity(0.06)))
+        }
+        MediaSFUHeadlessVideoStage(
+          controller: room, accent: familiarGreen, emptyTitle: "Waiting for cameras"
+        ).clipShape(RoundedRectangle(cornerRadius: 24))
+          .overlay(RoundedRectangle(cornerRadius: 24).stroke(familiarGreen.opacity(0.18)))
+          .frame(maxWidth: .infinity, maxHeight: .infinity)
+        HStack(spacing: 8) {
+          FamiliarCallAction(title: "Mic", icon: "mic.fill", accessibility: "Toggle microphone") {
             room.toggleAudio()
-          } label: {
-            Image(systemName: "mic.fill").frame(width: 48, height: 48)
-          }.buttonStyle(.borderedProminent)
-          Button {
+          }
+          FamiliarCallAction(title: "Video", icon: "video.fill", accessibility: "Toggle camera") {
             room.toggleVideo()
-          } label: {
-            Image(systemName: "video.fill").frame(width: 48, height: 48)
-          }.buttonStyle(.borderedProminent)
-          Button {
-            room.toggleScreenShare()
-          } label: {
-            Image(systemName: "rectangle.inset.filled.and.person.filled").frame(
-              width: 48, height: 48)
-          }.buttonStyle(.borderedProminent)
-          Button(role: .destructive) {
-            model.endCall()
-          } label: {
-            Image(systemName: "phone.down.fill").frame(width: 48, height: 48)
-          }.buttonStyle(.borderedProminent)
-        }.foregroundStyle(.white)
-      }.padding(18).background(.black.opacity(0.35))
+          }
+          FamiliarCallAction(
+            title: "Share", icon: "rectangle.inset.filled.and.person.filled",
+            accessibility: "Share screen"
+          ) { room.toggleScreenShare() }
+          FamiliarCallAction(
+            title: "End", icon: "phone.down.fill", accessibility: "End call", destructive: true
+          ) { model.endCall() }
+        }
+      }
+      .padding(.horizontal, 16).padding(.top, 10).padding(.bottom, 12)
+      .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
     }.onDisappear { if model.activeSession != nil { model.endCall() } }
+      .frame(maxWidth: .infinity, maxHeight: .infinity)
+  }
+}
+
+private struct FamiliarCallAction: View {
+  let title: String
+  let icon: String
+  let accessibility: String
+  var destructive = false
+  let action: () -> Void
+
+  var body: some View {
+    Button(action: action) {
+      VStack(spacing: 5) {
+        Image(systemName: icon).font(.system(size: 17, weight: .semibold))
+        Text(title).font(.caption2.weight(.bold))
+      }
+      .foregroundStyle(destructive ? Color.white : familiarInk)
+      .frame(maxWidth: .infinity).frame(height: 56)
+      .background(destructive ? Color.red : Color.white)
+      .clipShape(RoundedRectangle(cornerRadius: 16))
+      .overlay(
+        RoundedRectangle(cornerRadius: 16)
+          .stroke(destructive ? Color.clear : Color.black.opacity(0.07)))
+    }
+    .buttonStyle(.plain).accessibilityLabel(accessibility)
   }
 }

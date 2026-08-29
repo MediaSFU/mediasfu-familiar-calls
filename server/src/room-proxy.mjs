@@ -124,6 +124,7 @@ export function createRoomProxy({ env = process.env, fetchImpl = fetch, store } 
   );
   const sessionStore = store || new JsonSessionStore(env.MEDIASFU_SESSION_STORE_PATH || defaultStorePath);
   const protocolCreateRequests = new Map();
+  const roomJoinHandoffs = new Map();
   const protocolBroker = createExternalMediaBroker({
     env,
     fetchImpl,
@@ -333,17 +334,22 @@ export function createRoomProxy({ env = process.env, fetchImpl = fetch, store } 
             throw apiError('This user is not a participant in the session.');
           }
           if (session.status === 'ended') throw apiError('This call has ended.');
-          if (session.joinedUserIds.includes(userId)) {
-            return { data: { meetingID: session.meetingId }, session };
+          const handoffKey = `${session.id}:${userId}`;
+          const existingHandoff = roomJoinHandoffs.get(handoffKey);
+          if (session.joinedUserIds.includes(userId) && existingHandoff) {
+            return { data: existingHandoff, session };
           }
           const data = await callMediaSFU({
             action: 'join', meetingID: session.meetingId, userName: displayName,
           }, roomIdempotencyKey(request));
-          session.joinedUserIds.push(userId);
-          session.status = 'active';
-          session.updatedAt = now();
-          session.history.push({ type: 'joined', at: session.updatedAt, userId });
-          joinedNow = true;
+          roomJoinHandoffs.set(handoffKey, data);
+          if (!session.joinedUserIds.includes(userId)) {
+            session.joinedUserIds.push(userId);
+            session.status = 'active';
+            session.updatedAt = now();
+            session.history.push({ type: 'joined', at: session.updatedAt, userId });
+            joinedNow = true;
+          }
           return { data, session };
         });
         if (!result) return json(response, 404, { success: false, error: 'Session not found.' });
@@ -462,6 +468,9 @@ export function createRoomProxy({ env = process.env, fetchImpl = fetch, store } 
           }
         }
         if (endedNow) {
+          for (const key of roomJoinHandoffs.keys()) {
+            if (key.startsWith(`${sessionId}:`)) roomJoinHandoffs.delete(key);
+          }
           const event = { session: sanitizeSession(result), userId, reason: result.endReason };
           io.to(`user:${result.hostUserId}`).emit('call:ended', event);
           io.to(`user:${result.targetUserId}`).emit('call:ended', event);
