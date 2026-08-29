@@ -18,6 +18,9 @@ struct MediaSFURoomConfiguration {
     var localLink: String = ""
     var userName: String
     var roomName: String = ""
+    /// Optional room-scoped handoff returned by the app's backend create/join call.
+    var roomApiToken: String = ""
+    var roomLink: String = ""
     var action: String
     var eventType: String = "conference"
     var connectMediaSFU: Bool = true
@@ -43,6 +46,8 @@ final class MediaSFURoomController: ObservableObject {
         launch.localLink = configuration.localLink
         launch.userName = configuration.userName
         launch.roomName = configuration.roomName
+        launch.roomApiToken = configuration.roomApiToken
+        launch.roomLink = configuration.roomLink
         launch.action = configuration.action
         launch.eventType = configuration.eventType
         launch.connectMediaSFU = configuration.connectMediaSFU

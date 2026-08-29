@@ -100,8 +100,11 @@ struct FamiliarCallView: View {
     @StateObject private var room = MediaSFURoomController()
     var identity: FamiliarIdentity { model.identity! }
     var session: FamiliarSession { model.activeSession! }
+    private var mediaSFURoomName: String { model.roomData["roomName"] as? String ?? session.meetingId }
+    private var roomApiToken: String { model.roomData["secret"] as? String ?? "" }
+    private var roomLink: String { model.roomData["link"] as? String ?? "" }
     var body: some View { ZStack(alignment: .bottom) {
-        MediaSFUNativeRoomView(controller: room, configuration: MediaSFURoomConfiguration(userName: identity.displayName, roomName: session.meetingId, action: "join"))
+        MediaSFUNativeRoomView(controller: room, configuration: MediaSFURoomConfiguration(userName: identity.displayName, roomName: mediaSFURoomName, roomApiToken: roomApiToken, roomLink: roomLink, action: "join"))
             .ignoresSafeArea()
         VStack(spacing: 12) { HStack { VStack(alignment: .leading) { Text("MEDIA CALL").font(.caption.weight(.bold)); Text(session.hostUserId == identity.userId ? session.targetUserId : session.hostUserId).font(.title2.bold()) }; Spacer(); Text(room.state).font(.caption).padding(8).background(.thinMaterial).clipShape(Capsule()) }.foregroundStyle(.white)
             Spacer(); HStack(spacing: 14) { Button { room.toggleAudio() } label: { Image(systemName: "mic.fill").frame(width: 48, height: 48) }.buttonStyle(.borderedProminent); Button { room.toggleVideo() } label: { Image(systemName: "video.fill").frame(width: 48, height: 48) }.buttonStyle(.borderedProminent); Button { room.toggleScreenShare() } label: { Image(systemName: "rectangle.inset.filled.and.person.filled").frame(width: 48, height: 48) }.buttonStyle(.borderedProminent); Button(role: .destructive) { model.endCall() } label: { Image(systemName: "phone.down.fill").frame(width: 48, height: 48) }.buttonStyle(.borderedProminent) }.foregroundStyle(.white) }.padding(18).background(.black.opacity(0.35))
