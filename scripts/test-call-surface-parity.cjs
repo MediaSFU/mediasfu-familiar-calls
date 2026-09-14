@@ -9,7 +9,7 @@ const contracts = [
   {
     name: 'React',
     source: read('apps', 'react', 'App.tsx'),
-    required: ['clampMiniOffset', 'onDoubleClick={swapFocus}', 'onPointerMove={moveMini}', 'screenActive', 'AudioGrid componentsToRender={room.audioComponents}'],
+    required: ['clampMiniOffset', 'onDoubleClick={swapFocus}', 'onPointerMove={moveMini}', 'screenActive', 'AudioGrid componentsToRender={room.audioComponents}', 'onMediaChanged={room.onMediaChanged}'],
   },
   {
     name: 'Angular',
@@ -104,6 +104,13 @@ const contracts = [
     required: ['MediaPresentationResolver.Resolve', 'ClampMiniOffset', 'EventType.MouseDrag', 'clickCount >= 2', 'SetScreenShareTexture', 'remoteAudioSources.Add', 'UnityWebRequest.Delete'],
   },
 ];
+
+const reactPackage = JSON.parse(read('apps', 'react', 'package.json'));
+assert.equal(
+  reactPackage.dependencies['mediasfu-reactjs'],
+  '4.3.3',
+  'React must retain the retry-safe MediaSFU consumer lifecycle',
+);
 
 for (const contract of contracts) {
   for (const token of contract.required) {

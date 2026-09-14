@@ -17,7 +17,7 @@
     "@fortawesome/react-fontawesome": "^0.2.6",
     "@mediapipe/selfie_segmentation": "^0.1.1675465747",
     "bootstrap": "^5.3.8",
-    "mediasfu-reactjs": "4.3.0",
+    "mediasfu-reactjs": "4.3.3",
     "mediasoup-client": "^3.20.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
