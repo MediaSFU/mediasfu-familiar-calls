@@ -24,7 +24,7 @@ The custom call screen resolves screen share → remote camera → local camera 
 mounts `<AudioGrid componentsToRender={room.audioComponents} />` separately.
 It also forwards `onMediaChanged={room.onMediaChanged}` to the headless engine,
 so late and replaced audio consumers are republished into that single audio
-grid. The React starter pins `mediasfu-reactjs` 4.3.3 or newer for the bounded
+grid. The React starter pins `mediasfu-reactjs` 4.3.4 or newer for the bounded
 consumer-device wait and retry-safe reservation lifecycle.
 Only a normal local camera is mirrored. **Test media** publishes an animated
 canvas into the real MediaSFU room for deterministic two-participant acceptance;

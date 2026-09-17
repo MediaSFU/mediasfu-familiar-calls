@@ -32,7 +32,7 @@
     "expo-splash-screen": "~57.0.7",
     "expo-status-bar": "~57.0.1",
     "expo-web-browser": "~57.0.2",
-    "mediasfu-reactnative-expo": "2.5.0",
+    "mediasfu-reactnative-expo": "2.5.3",
     "mediasoup-client": "^3.20.0",
     "react": "19.2.3",
     "react-color": "^2.19.3",

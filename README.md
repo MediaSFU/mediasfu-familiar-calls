@@ -15,6 +15,15 @@ The identity fields keep this repository easy to run. They demonstrate the
 flow, not production authentication. Replace them with authenticated users and
 server-side authorization before launch.
 
+## See it running
+
+| Incoming call | Connected video call |
+| --- | --- |
+| ![Chats and calls home showing an incoming video call with Accept and Decline](test-evidence/react/06-staging-incoming-contact-call.png) | ![Recipient's call screen showing the caller's live video](test-evidence/react/08-staging-recipient-remote-media.png) |
+
+Captured from the React app in a two-person call. The camera feed is a synthetic
+test pattern; see the [evidence notes](test-evidence/react/README.md).
+
 ## One backend, every frontend
 
 [`server`](server) is the single framework-neutral call backend used by React,
@@ -43,6 +52,22 @@ and read the [MediaSFU documentation](https://mediasfu.com/documentation).
 MediaSFU Open means **your own already-running local MediaSFU server**. A client
 URL or `localLink` does not install or start that server.
 
+## Try it in two browser tabs
+
+With the backend running, start the reference React app on port `4174`:
+
+```powershell
+cd apps/react
+npm install
+npm run dev
+```
+
+Open two browser tabs; each tab can onboard as a different user. Enter the
+second tab's user ID in the first, choose audio or video, and call — the second
+tab shows an incoming call to accept or decline. Every app folder has its own
+README with the equivalent steps for that platform; see the
+[React app guide](apps/react/README.md) for details.
+
 ## Apps
 
 | App | Media integration | Best starting point for |
@@ -62,6 +87,8 @@ URL or `localLink` does not install or start that server.
 See [tested platform compatibility](VALIDATION_STATUS.md) to learn what each
 app includes, which builds have passed, and which behaviors have been observed
 in a live two-person room.
+
+### Call-surface contract
 
 Every implementation must show screen share first, otherwise remote camera,
 otherwise local camera; mirror only a normal local camera; mount every prepared

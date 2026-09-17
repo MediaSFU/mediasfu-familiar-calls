@@ -16,8 +16,8 @@
     "@fortawesome/free-solid-svg-icons": "^7.1.0",
     "@fortawesome/vue-fontawesome": "^3.1.2",
     "@mediapipe/selfie_segmentation": "^0.1.1675465747",
-    "mediasfu-shared": "1.1.0",
-    "mediasfu-vue": "1.1.1",
+    "mediasfu-shared": "1.2.2",
+    "mediasfu-vue": "1.1.3",
     "mediasoup-client": "^3.20.0",
     "socket.io-client": "^4.8.1",
     "vue": "^3.5.22"
