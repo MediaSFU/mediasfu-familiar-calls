@@ -62,9 +62,11 @@ npm install
 npm run dev
 ```
 
-Open two browser tabs; each tab can onboard as a different user. Enter the
-second tab's user ID in the first, choose audio or video, and call — the second
-tab shows an incoming call to accept or decline. Every app folder has its own
+Open two browser tabs; each tab can onboard as a different user. Give each
+user a different display name — a call holds one participant per name, so the
+backend refuses a recipient whose name matches the caller's. Enter the second
+tab's user ID in the first, choose audio or video, and call — the second tab
+shows an incoming call to accept or decline. Every app folder has its own
 README with the equivalent steps for that platform; see the
 [React app guide](apps/react/README.md) for details.
 

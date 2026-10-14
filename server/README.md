@@ -76,6 +76,13 @@ the in-memory leases; production should use an encrypted, expiring lease store.
 numbers, underscores, or hyphens. These client-supplied IDs are demo identity,
 not authentication.
 
+A MediaSFU room holds one participant per display name, compared without regard
+to letter case. `POST /api/rooms/join` and `POST /api/protocol/prepare`
+therefore return `409` with a readable `error` when the recipient's display
+name matches the caller's, before any MediaSFU request is made. The recipient
+changes their display name and accepts again; the backend never renames a
+participant, because each client joins with its own saved name.
+
 ## Retry-safe room requests
 
 `POST /api/rooms/create` and `POST /api/rooms/join` accept an

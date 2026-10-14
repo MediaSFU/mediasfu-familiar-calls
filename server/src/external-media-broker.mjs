@@ -1,4 +1,5 @@
 import crypto from 'node:crypto';
+import { collidesWithHost, duplicateNameMessage } from './display-names.mjs';
 
 const SESSION_ID_PATTERN = /^ems_[a-f0-9]{24}$/;
 const PLAYBACK_ID_PATTERN = /^emp_[a-f0-9]{24}$/;
@@ -117,6 +118,11 @@ export function createExternalMediaBroker({ env, fetchImpl, getSession }) {
     const name = text(displayName);
     if (!/^[A-Za-z0-9]{2,10}$/.test(name)) {
       throw apiError('displayName must be alphanumeric and 2-10 characters.');
+    }
+    // WHIP publishers join the same MediaSFU room under their display name, so
+    // the same one-name-per-room rule applies as for SDK joins.
+    if (collidesWithHost(session, identity.userId, name)) {
+      throw apiError(duplicateNameMessage(session.displayName), 409);
     }
     const lease = callLease(session);
     const participant = participantLease(lease, identity.userId);

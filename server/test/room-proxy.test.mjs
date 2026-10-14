@@ -348,3 +348,75 @@ test('brokers a two-person WHIP publish and WHEP consume call without an SDK', a
   });
   assert.equal(response.status, 409);
 });
+
+test('a callee using the caller\'s display name is refused before MediaSFU is asked', async () => {
+  const app = await runningServer();
+  const created = await (await post(app.url, '/api/rooms/create', {
+    hostUserId: 'host-1', targetUserId: 'guest-1', displayName: 'Alex',
+  })).json();
+
+  // MediaSFU compares names without regard to case, so 'alex' is the same name.
+  for (const displayName of ['Alex', 'alex']) {
+    const response = await post(app.url, '/api/rooms/join', {
+      sessionId: created.session.id, userId: 'guest-1', displayName,
+    });
+    assert.equal(response.status, 409);
+    const payload = await response.json();
+    assert.equal(payload.success, false);
+    assert.match(payload.error, /display name matches the caller's \("Alex"\)/);
+  }
+  assert.equal(app.calls.filter((call) => call.payload.action === 'join').length, 0);
+
+  // A distinct name still joins, and the host rejoining under its own name is
+  // not a collision with itself.
+  let response = await post(app.url, '/api/rooms/join', {
+    sessionId: created.session.id, userId: 'guest-1', displayName: 'Blair',
+  });
+  assert.equal(response.status, 200);
+  response = await post(app.url, '/api/rooms/join', {
+    sessionId: created.session.id, userId: 'host-1', displayName: 'Alex',
+  });
+  assert.equal(response.status, 200);
+});
+
+test('a WHIP callee using the caller\'s display name is refused before a publisher is created', async () => {
+  const calls = [];
+  const server = createRoomProxy({
+    store: new MemorySessionStore(),
+    env: {
+      MEDIASFU_API_USERNAME: 'server-user',
+      MEDIASFU_API_KEY: 'server-key',
+      MEDIASFU_ROOM_API_URL: 'https://staging.example.test/v1/rooms/',
+    },
+    fetchImpl: async (url, options) => {
+      const payload = options.body ? JSON.parse(options.body) : null;
+      calls.push({ url, method: options.method, payload });
+      if (url.endsWith('/v1/rooms/')) {
+        return Response.json({ success: true, roomName: 'smeeting123', secret: 'room-only', link: 'https://sp-stage.example.test' });
+      }
+      if (options.method === 'POST' && url.endsWith('/external-sessions')) {
+        return Response.json({
+          success: true,
+          sessionID: 'ems_111111111111111111111111',
+          ingest: { url: 'https://sp-stage.example.test/whip/smeeting123/ems_1', token: 'whip-token' },
+        }, { status: 201 });
+      }
+      throw new Error(`Unexpected request: ${options.method} ${url}`);
+    },
+  });
+  servers.push(server);
+  await new Promise((resolve) => server.listen(0, '127.0.0.1', resolve));
+  const url = `http://127.0.0.1:${server.address().port}`;
+
+  const created = await (await post(url, '/api/protocol/calls/create', {
+    hostUserId: 'host-1', targetUserId: 'guest-1', displayName: 'Alex', callType: 'video',
+    requestId: 'native-call-request-dup',
+  })).json();
+
+  const response = await post(url, '/api/protocol/prepare', {
+    sessionId: created.session.id, userId: 'guest-1', displayName: 'ALEX',
+  });
+  assert.equal(response.status, 409);
+  assert.match((await response.json()).error, /display name matches the caller's/);
+  assert.equal(calls.filter((call) => call.url.endsWith('/external-sessions')).length, 0);
+});

@@ -3,6 +3,7 @@ import http from 'node:http';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { Server as SocketServer } from 'socket.io';
+import { collidesWithHost, duplicateNameMessage } from './display-names.mjs';
 import { createExternalMediaBroker } from './external-media-broker.mjs';
 import { JsonSessionStore } from './session-store.mjs';
 
@@ -334,6 +335,11 @@ export function createRoomProxy({ env = process.env, fetchImpl = fetch, store } 
             throw apiError('This user is not a participant in the session.');
           }
           if (session.status === 'ended') throw apiError('This call has ended.');
+          // Checked here, before MediaSFU is asked: a matching name would be
+          // refused by the room only after the callee had pressed Accept.
+          if (collidesWithHost(session, userId, displayName)) {
+            throw apiError(duplicateNameMessage(session.displayName), 409);
+          }
           const handoffKey = `${session.id}:${userId}`;
           const existingHandoff = roomJoinHandoffs.get(handoffKey);
           if (session.joinedUserIds.includes(userId) && existingHandoff) {
